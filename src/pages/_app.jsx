@@ -1,3 +1,4 @@
+import { AppProps } from "next/app";
 import { theme } from "@/styles/theme";
 import { ThemeProvider } from "styled-components";
 
@@ -8,3 +9,4 @@ export default function App({ Component, pageProps }) {
   </ThemeProvider>
   )
 }
+App.prototypes = AppProps;
