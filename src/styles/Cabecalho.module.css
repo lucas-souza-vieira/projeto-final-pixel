@@ -1,4 +1,38 @@
 .Cabecalho {
     display: flex;
-    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    margin-bottom: 2em;    
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_itens {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.link_itens li {
+    margin-left: 3em;
+}
+
+.link_itens a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.carreira {
+    color: black;
+    padding: 10px 20px;
+    background-color: #FA8400;
+    
 }

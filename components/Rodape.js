@@ -1,5 +1,9 @@
 export default function Rodape(){
     return(
-        <h1>Aqui é o rodape</h1>
+        <footer>
+            <p>
+                <span>&copy; JOJOS GAME STUDIO. ALL RIGHTS RESERVED</span>
+            </p>
+        </footer>
     )
 }
