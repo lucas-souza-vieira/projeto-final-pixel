@@ -1,5 +1,5 @@
 import Cabecalho from "./Cabecalho";
-import Rodape from "./rodape";
+import Rodape from "./Rodape";
 
 export default function MainContainer({ children }){
     return(

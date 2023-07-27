@@ -1,22 +1,12 @@
-import P from 'prop-types';
+import Head from "next/head"
 
-
-export default function Index( {name} ) {
+export default function Index() {
   return (
     <>
-    <h1>{name}</h1>
+    <Head>
+      <title>Home</title>
+    </Head>
+    <h1>OI</h1>
     </>
     )
 }
-
-export const getStaticProps = async () => {
-  return {
-    props: {
-      name: "Lucas",
-    },
-  };
-};
-
-Index.prototypes = {
-  name: P.string,
-};
