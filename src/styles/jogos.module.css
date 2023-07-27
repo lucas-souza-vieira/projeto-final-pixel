@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+
+.jogo {
+    text-align: center;
+}
+
+.jogo h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #FA8400;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.jogo p {
+    margin: 0 auto;
+    max-width: 1240px;
+    text-align: left;
+    color: #fff;
+    line-height: 32px;
+    font-size: 20px;
+}
+
+.jogo div {
+    display: inline-block;
+    padding: 20px;
+}
