@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+
 .container {
     display: grid;
     grid-template-rows: 490px 300px;
@@ -15,4 +17,46 @@
 .container a:hover {
     outline: 5px solid #FA8400;
     
+}
+
+
+.about{
+    margin: 100px auto;
+    text-align: center;
+    align-items: center;
+    max-width: 1240px;
+    max-height: 762px;
+}
+
+.about h1 {
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    padding-top: 2em;
+    color: #FA8400;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.it{
+    display: flex;
+
+}
+
+.texto {
+    text-align: left;
+    margin-right: 20px;
+    flex: 1;
+    color: #fff;
+    font-size:18px;
+    line-height: 32px;
+
+}
+
+.imagem {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+.texto p {
+    text-indent: 2em;
 }

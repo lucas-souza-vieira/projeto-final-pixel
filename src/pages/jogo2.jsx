@@ -8,7 +8,7 @@ export default function jogo2(){
                 <h1>Tetris</h1>
 
                 <div className={styles.imagem}>
-                    <Image src="/images/q3.svg" layout="responsive" width={1240} height={490} alt="Foto Tetris" /><br/>
+                    <Image src="/images/q33.svg" layout="responsive" width={1240} height={490} alt="Foto Tetris" /><br/>
                 </div>
 
                 <div className={styles.containeir}>

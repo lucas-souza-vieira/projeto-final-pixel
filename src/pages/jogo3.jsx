@@ -8,7 +8,7 @@ export default function jogo3(){
                 <h1>Space Invader</h1>
 
                 <div className={styles.imagem}>
-                    <Image src="/images/q4.svg" layout="responsive" width={1240} height={490} alt="Foto Space Invader" /><br/>
+                    <Image src="/images/q44.svg" layout="responsive" width={1240} height={490} alt="Foto Space Invader" /><br/>
                 </div>
 
                 <div className={styles.containeir}>
