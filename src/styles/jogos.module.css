@@ -4,24 +4,52 @@
     text-align: center;
 }
 
+.imagem {
+    max-width: 1240px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .jogo h1 {
-    font-size: 2em;
+    font-size: 40px;
     margin-bottom: 0.5em;
     color: #FA8400;
     font-family: 'Press Start 2P', cursive;
-
 }
 
 .jogo p {
-    margin: 0 auto;
     max-width: 1240px;
-    text-align: left;
+    margin: 0 auto 1.5em;
     color: #fff;
+    font-family:'Montserrat', sans-serif;
     line-height: 32px;
-    font-size: 20px;
+    text-align: left;
 }
 
-.jogo div {
-    display: inline-block;
-    padding: 20px;
+.containeir{
+    text-align: left;
+    max-width: 1240px;
+    margin: 20px auto 1.5em;
+
+}
+
+.comprar {
+    display: inline-flex;
+    align-items: center; 
+    color: #fff;
+    gap: 10px; 
+}
+
+.comprar h2{
+    padding-right: 40px;
+    font-size: 20px; 
+    font-weight: normal;
+}
+
+.comprar button{
+    background-color: #FA8400;
+    padding: 10px 20px; 
+    font-size: 20px;
+    cursor: pointer;
 }

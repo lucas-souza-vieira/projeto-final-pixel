@@ -19,7 +19,7 @@ export default function Index() {
           <Image src="/images/q3.svg" width={400} height={300} alt="Foto tetris"/>
         </a>
 
-        <a href="/jogo">
+        <a href="/jogo3">
           <Image src="/images/q4.svg" width={400} height={300} alt="Foto space invader"/>
         </a>
       </div>  
