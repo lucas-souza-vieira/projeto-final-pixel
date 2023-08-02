@@ -1,4 +1,3 @@
-import Head from "next/head"
 import Image from "next/image"
 import styles from '../styles/index.module.css'
 
@@ -47,7 +46,7 @@ export default function Index() {
 
         <div className={styles.grid}>
 
-          <a href="/jogo1" className={styles.retangulo_maior}>
+          <a href="/forms" className={styles.retangulo_maior}>
             <h2>Desenvolvedor C++ Júnior</h2>
               <div className={styles.retangulo_menores}>
                 <div className={styles.retangulo_menor}>
@@ -59,7 +58,7 @@ export default function Index() {
               </div>
           </a>
 
-          <a href="/jogo1" className={styles.retangulo_maior}>
+          <a href="/forms" className={styles.retangulo_maior}>
             <h2>Desenvolvedor C++ Pleno</h2>
               <div className={styles.retangulo_menores}>
                 <div className={styles.retangulo_menor}>
@@ -71,7 +70,7 @@ export default function Index() {
         </div>
       </a>
 
-      <a href="/jogo1" className={styles.retangulo_maior}>
+      <a href="/forms" className={styles.retangulo_maior}>
         <h2>Engenheiro de Software</h2>
         <div className={styles.retangulo_menores}>
           <div className={styles.retangulo_menor}>
@@ -83,7 +82,7 @@ export default function Index() {
         </div>
       </a>
 
-      <a href="/jogo1" className={styles.retangulo_maior}>
+      <a href="/forms" className={styles.retangulo_maior}>
         <h2>Artista Técnico</h2>
         <div className={styles.retangulo_menores}>
           <div className={styles.retangulo_menor}>
@@ -95,7 +94,7 @@ export default function Index() {
         </div>
       </a>
 
-      <a href="/jogo1" className={styles.retangulo_maior}>
+      <a href="/forms" className={styles.retangulo_maior}>
         <h2>Representante Comercial</h2>
         <div className={styles.retangulo_menores}>
           <div className={styles.retangulo_menor}>
@@ -111,8 +110,6 @@ export default function Index() {
       </div>
 
     </div>
-
-
     </>
     )
 }

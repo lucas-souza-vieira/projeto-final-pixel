@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+
+.forms h1{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto 50px auto;
+    color: #FA8400;
+}
+
+.container {
+    width: 600px;
+    height: 619px;
+    margin: 50px auto;
+    color: #DFDFE4;
+    font-size: 20px;
+}
+
+.group {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    height: 55px;
+    padding: 10px;
+    border: 1px solid #DFDFE4;
+    color: #fff;
+    font-size: 20px;
+}
+
+.inputt {
+    width: 100%;
+    height: 142px;
+    padding: 10px;
+    border: 1px solid #DFDFE4;
+    color: #fff;
+    font-size: 20px;
+
+
+}
+
+.submit {
+    background-color: #FA8400;
+    color: #023047;
+    line-height: 32px;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 600px;
+    height: 52px;
+
+}
+
+.submit:hover {
+    background-color: #b3640b;
+}
+
+.imagemOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .imagemWrapper {
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+  }
