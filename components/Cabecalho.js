@@ -15,13 +15,13 @@ export default function Cabecalho(){
               <Link href="/">Jogos</Link>
             </li>
             <li>
-              <Link href="#about">Sobre</Link>
+              <Link href="/#about">Sobre</Link>
             </li>
             <li>
               <Link href="/blog">Blog</Link>
             </li>
             <li>
-              <Link href="/"><span className={styles.carreira}>Carreira</span></Link>
+              <Link href="/#carreira"><span className={styles.carreira}>Carreira</span></Link>
             </li>
           </ul>
         </nav> 

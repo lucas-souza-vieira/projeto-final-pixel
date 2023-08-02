@@ -21,7 +21,7 @@
 
 
 .about{
-    margin: 100px auto;
+    margin: 20px auto;
     text-align: center;
     align-items: center;
     max-width: 1240px;
@@ -59,4 +59,77 @@
 
 .texto p {
     text-indent: 2em;
+}
+
+.carreirah1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    text-align: center;
+    padding-top: 2em;
+    color: #FA8400;
+    margin-top: 80px;
+}
+
+.carreira {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #023047;
+    font-size: 16px;
+    margin-bottom: 125px;
+  }
+
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+margin: 0 auto;
+}
+
+.retangulo_maior {
+width: 400px;
+height: 127px;
+border: 1px solid #fff;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+align-items: flex-start; 
+text-decoration: none;
+color: #fff;
+padding: 20px 0 0 20px;
+position: relative; 
+}
+
+.retangulo_maior:hover {
+border: 1px solid #FA8400;
+}
+
+.retangulo_maior h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.retangulo_maior:hover h2{
+    color: #FA8400;
+}
+
+.retangulo_menores {
+display: flex;
+justify-content: flex-start; 
+margin-top: 15px;
+gap: 20px; 
+}
+
+.retangulo_menor {
+height: 32px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #DFDFE4;
+border-radius: 5px;
+padding: 6px 13px;
+color: #DFDFE4;
 }
