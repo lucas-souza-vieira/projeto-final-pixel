@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap%27');
+
+.blog {
+    align-items: center;
+    margin: 20px auto;
+    max-width: 1240px;
+}
+
+.imagem {
+    max-width: 1240px;
+    max-height: 368px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 20px auto;
+}
+
+
+.titulos {
+    color: #DFDFE4;
+    margin: 0 auto;
+
+}
+
+.titulos h1 {
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.titulos h6{
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: normal;
+    margin-bottom: 36px;
+    
+}
+
+.texto{
+    margin-bottom: 115px;
+}
+
+.blog p {
+    max-width: 1240px;
+    margin: 0 auto;
+    color: #DFDFE4;
+    font-family:'Montserrat', sans-serif;
+    line-height: 32px;
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
