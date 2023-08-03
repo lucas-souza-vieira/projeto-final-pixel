@@ -21,7 +21,7 @@ export default function Cabecalho(){
               <Link href="/blog">Blog</Link>
             </li>
             <li>
-              <Link href="/#carreira"><span className={styles.carreira}>Carreira</span></Link>
+              <a href="/#carreira"><span className={styles.carreira}>Carreira</span></a>
             </li>
           </ul>
         </nav> 

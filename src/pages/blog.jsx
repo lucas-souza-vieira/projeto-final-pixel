@@ -17,7 +17,6 @@ export default function Blog() {
                 </div>
             </div>
 
-
             <div className={styles.menores}>
                 <div>
                     <Image src="/images/blog2.svg" width={390} height={220} alt="Foto blog"/> 
