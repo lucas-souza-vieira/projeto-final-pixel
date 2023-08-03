@@ -43,22 +43,26 @@
 
 .texto {
     text-align: left;
-    margin-right: 20px;
-    flex: 1;
+    width: 625px;
+    height: 692px;
+    font-weight: 400;
     color: #DFDFE4;
-    font-size:18px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 31px;
 
 }
 
 .imagem {
-    flex: 1;
+    width: 566px;
+    height: 692px;
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .texto p {
     text-indent: 2em;
+    margin-bottom: 5px;
+
 }
 
 .carreirah1 {

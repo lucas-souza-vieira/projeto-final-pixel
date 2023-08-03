@@ -6,9 +6,9 @@ export default function Cabecalho(){
     return (
         <nav className={styles.Cabecalho}>
           <div className={styles.logo}>
-            <a href="/">
-              <Image src="/images/logo.svg" width={263} height={40} alt='jojos' />
-            </a>
+            <Link href="/">
+              <Image src="/images/logo.svg" width={263} height={40} alt='jojos'/>
+            </Link>
           </div>
           <ul className={styles.link_itens}>
             <li>
@@ -21,7 +21,7 @@ export default function Cabecalho(){
               <Link href="/blog">Blog</Link>
             </li>
             <li>
-              <a href="/#carreira"><span className={styles.carreira}>Carreira</span></a>
+              <a href="/#carreira" ><span className={styles.carreira}>Carreira</span></a>
             </li>
           </ul>
         </nav> 

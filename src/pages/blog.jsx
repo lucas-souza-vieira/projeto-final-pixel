@@ -19,28 +19,38 @@ export default function Blog() {
 
             <div className={styles.menores}>
                 <div>
+                    <a href="/blog1">
                     <Image src="/images/blog2.svg" width={390} height={220} alt="Foto blog"/> 
                     <p>O impacto dos jogos retrô na indústria de desenvolvimento de jogos</p>
+                    </a>
                 </div>
 
                 <div>
+                    <a href="/blog1">
                     <Image src="/images/blog2.svg" width={390} height={220} alt="Foto blog"/> 
                     <p>Como desenvolver jogos retrô com um toque moderno</p>
+                    </a>
                 </div>
 
                 <div>
+                    <a href="/blog1">
                     <Image src="/images/blog2.svg" width={390} height={220} alt="Foto blog"/> 
                     <p>Criação de arte pixelada</p>
+                    </a>
                 </div>
 
                 <div>
+                    <a href="/blog1">
                     <Image src="/images/blog2.svg" width={390} height={220} alt="Foto blog"/> 
                     <p>Trilha sonora em jogos retrô</p>
+                    </a>
                 </div>
 
                 <div>
+                    <a href="/blog1">
                     <Image src="/images/blog2.svg" width={390} height={220} alt="Foto blog"/> 
                     <p>As influências históricas dos jogos retrô na cultura pop</p>
+                    </a>
                 </div>
             </div>   
         </div>

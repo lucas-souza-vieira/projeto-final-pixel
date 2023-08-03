@@ -37,3 +37,7 @@
     height: 52px;
     background-color: #FA8400;
 }
+
+.carreira:hover {
+    background-color: #b3640b;
+}
